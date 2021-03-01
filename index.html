@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Html</title>
+    <style>
+      h1 {
+        background: red;
+      }
+      #heading-two {
+        background: rebeccapurple;
+      }
+    </style>
   </head>
+
   <body>
-    <p>Olá</p>
+    <h1 id="heading-one" class="background-red border-left">Meu HTML</h1>
+    <h1 id="heading-two" class="background-red">Meu HTML</h1>
   </body>
 </html>
+
+--o ID se sobrepõe às classes. Então se houver mais de uma definição a do ID vai
+prevalecer
